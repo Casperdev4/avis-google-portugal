@@ -37,225 +37,230 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Início", "item": "https://comprar-avaliacao.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Avaliações Google Hotel", "item": "https://comprar-avaliacao.com/avaliacoes-google-hotel.html"}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Comprar Avaliação",
-        "url": "https://comprar-avaliacao.com",
-        "logo": "https://comprar-avaliacao.com/comprar-avaliacao-logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Os nossos serviços",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Comprar Avaliações Google Hotel",
-                        "url": "https://comprar-avaliacao.com/avaliacoes-google-hotel.html"
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Início",
+                        "item": "https://comprar-avaliacao.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Avaliações Google Hotel",
+                        "item": "https://comprar-avaliacao.com/avaliacoes-google-hotel.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "As avaliações Google para hotel mencionam os quartos e o serviço?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Sim, cada avaliação é redigida à medida mencionando a limpeza dos quartos, a qualidade do acolhimento, o pequeno-almoço, a localização e o conforto geral do seu estabelecimento."
-                }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Quantas avaliações Google deve ter um hotel para inspirar confiança?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Um hotel precisa de pelo menos 50 a 100 avaliações para parecer credível. Os viajantes comparam sistematicamente vários estabelecimentos e privilegiam aqueles com o maior número de avaliações positivas."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "As avaliações Google são tão importantes como o Booking ou o TripAdvisor?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolutamente. O Google tornou-se a primeira plataforma consultada antes de uma reserva. Muitos viajantes verificam a classificação Google mesmo quando reservam através de outras plataformas."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "É possível comprar avaliações Google para vários hotéis?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Sim, gerimos encomendas multi-estabelecimentos. Contacte-nos via WhatsApp após a sua encomenda para indicar as diferentes fichas Google a visar."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "As Nossas Ofertas Avaliações Positivas",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                    "@type": "Product",
-                    "name": "25 Avaliações Positivas + 5 oferecidas",
-                    "description": "Pack de 25 avaliações Google positivas com contas portuguesas, textos personalizados, garantia vitalícia e apoio ao cliente 24/7.",
-                    "image": "https://comprar-avaliacao.com/comprar-avaliacao-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "99",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 12,
-                                    "maxValue": 30,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "PT"
+                "@type": "Organization",
+                "name": "Comprar Avaliação",
+                "url": "https://comprar-avaliacao.com",
+                "logo": "https://comprar-avaliacao.com/comprar-avaliacao-logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Os nossos serviços",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "comprar avaliações google hotel",
+                                "url": "https://comprar-avaliacao.com/avaliacoes-google-hotel.html"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "PT",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "As avaliações Google para hotel mencionam os quartos e o serviço?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Sim, cada avaliação é redigida à medida mencionando a limpeza dos quartos, a qualidade do acolhimento, o pequeno-almoço, a localização e o conforto geral do seu estabelecimento."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quantas avaliações Google deve ter um hotel para inspirar confiança?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Um hotel precisa de pelo menos 50 a 100 avaliações para parecer credível. Os viajantes comparam sistematicamente vários estabelecimentos e privilegiam aqueles com o maior número de avaliações positivas."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "As avaliações Google são tão importantes como o Booking ou o TripAdvisor?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Absolutamente. O Google tornou-se a primeira plataforma consultada antes de uma reserva. Muitos viajantes verificam a classificação Google mesmo quando reservam através de outras plataformas."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "É possível comprar avaliações Google para vários hotéis?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Sim, gerimos encomendas multi-estabelecimentos. Contacte-nos via WhatsApp após a sua encomenda para indicar as diferentes fichas Google a visar."
                         }
                     }
-                }
+                ]
             },
             {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                    "@type": "Product",
-                    "name": "50 Avaliações Positivas + 10 oferecidas",
-                    "description": "Pack de 50 avaliações Google positivas com contas portuguesas, textos personalizados, garantia vitalícia e apoio ao cliente 24/7.",
-                    "image": "https://comprar-avaliacao.com/comprar-avaliacao-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "169",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
+                "@type": "ItemList",
+                "name": "As Nossas Ofertas Avaliações Positivas",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Avaliações Positivas + 5 oferecidas",
+                            "description": "Pack de 25 avaliações Google positivas com contas portuguesas, textos personalizados, garantia vitalícia e apoio ao cliente 24/7.",
+                            "image": "https://comprar-avaliacao.com/comprar-avaliacao-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "99",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 12,
+                                            "maxValue": 30,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "PT"
+                                    }
                                 },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 25,
-                                    "maxValue": 60,
-                                    "unitCode": "DAY"
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "PT",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
                                 }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "PT"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "PT",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Avaliações Positivas + 10 oferecidas",
+                            "description": "Pack de 50 avaliações Google positivas com contas portuguesas, textos personalizados, garantia vitalícia e apoio ao cliente 24/7.",
+                            "image": "https://comprar-avaliacao.com/comprar-avaliacao-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "169",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 25,
+                                            "maxValue": 60,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "PT"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "PT",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Avaliações Positivas + 20 oferecidas",
+                            "description": "Pack de 100 avaliações Google positivas com contas portuguesas, textos personalizados, garantia vitalícia e apoio ao cliente 24/7.",
+                            "image": "https://comprar-avaliacao.com/comprar-avaliacao-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "279",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 50,
+                                            "maxValue": 120,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "PT"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "PT",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
                         }
                     }
-                }
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                    "@type": "Product",
-                    "name": "100 Avaliações Positivas + 20 oferecidas",
-                    "description": "Pack de 100 avaliações Google positivas com contas portuguesas, textos personalizados, garantia vitalícia e apoio ao cliente 24/7.",
-                    "image": "https://comprar-avaliacao.com/comprar-avaliacao-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "239",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 50,
-                                    "maxValue": 120,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "PT"
-                            }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "PT",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                        }
-                    }
-                }
+                ]
             }
         ]
     }

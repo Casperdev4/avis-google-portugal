@@ -36,225 +36,230 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Início", "item": "https://comprar-avaliacao.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Avaliações Google Artesão", "item": "https://comprar-avaliacao.com/avaliacoes-google-artesao.html"}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Comprar Avaliação",
-        "url": "https://comprar-avaliacao.com",
-        "logo": "https://comprar-avaliacao.com/comprar-avaliacao-logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Os nossos serviços",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Comprar Avaliações Google Artesão",
-                        "url": "https://comprar-avaliacao.com/avaliacoes-google-artesao.html"
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Início",
+                        "item": "https://comprar-avaliacao.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Avaliações Google Artesão",
+                        "item": "https://comprar-avaliacao.com/avaliacoes-google-artesao.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "As avaliações mencionam áreas profissionais específicas?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Sim, cada avaliação é redigida com base na sua especialidade. Quer seja pedreiro, carpinteiro, ladrilhador ou pintor, os testemunhos descrevem trabalhos adequados ao seu ofício e perícia."
-                }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Quantas avaliações deve ter um profissional para inspirar confiança?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Entre 25 e 50 avaliações são suficientes para consolidar a sua credibilidade. A maioria dos profissionais locais tem muito poucas avaliações, o que lhe dá a oportunidade de se destacar rapidamente na sua zona."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "As avaliações podem mencionar a qualidade dos acabamentos e materiais?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolutamente. Os nossos redatores incluem detalhes sobre a qualidade dos seus acabamentos, o cuidado com a obra e a escolha dos materiais. Estes elementos concretos reforçam a credibilidade de cada testemunho."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "As avaliações ajudam um profissional a obter mais orçamentos?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Sim, um perfil Google bem avaliado gera consideravelmente mais pedidos de orçamento. Os particulares contactam primeiro os profissionais que apresentam uma classificação elevada e feedback detalhado sobre os seus trabalhos."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "As Nossas Ofertas Avaliações Positivas",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                    "@type": "Product",
-                    "name": "25 Avaliações Positivas + 5 oferta",
-                    "description": "Pack de 25 avaliações Google positivas com contas portuguesas, textos personalizados, garantia vitalícia e apoio ao cliente 24/7.",
-                    "image": "https://comprar-avaliacao.com/comprar-avaliacao-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "99",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 12,
-                                    "maxValue": 30,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "PT"
+                "@type": "Organization",
+                "name": "Comprar Avaliação",
+                "url": "https://comprar-avaliacao.com",
+                "logo": "https://comprar-avaliacao.com/comprar-avaliacao-logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Os nossos serviços",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "comprar avaliações google artesão",
+                                "url": "https://comprar-avaliacao.com/avaliacoes-google-artesao.html"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "PT",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "As avaliações mencionam áreas profissionais específicas?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Sim, cada avaliação é redigida com base na sua especialidade. Quer seja pedreiro, carpinteiro, ladrilhador ou pintor, os testemunhos descrevem trabalhos adequados ao seu ofício e perícia."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quantas avaliações deve ter um profissional para inspirar confiança?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Entre 25 e 50 avaliações são suficientes para consolidar a sua credibilidade. A maioria dos profissionais locais tem muito poucas avaliações, o que lhe dá a oportunidade de se destacar rapidamente na sua zona."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "As avaliações podem mencionar a qualidade dos acabamentos e materiais?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Absolutamente. Os nossos redatores incluem detalhes sobre a qualidade dos seus acabamentos, o cuidado com a obra e a escolha dos materiais. Estes elementos concretos reforçam a credibilidade de cada testemunho."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "As avaliações ajudam um profissional a obter mais orçamentos?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Sim, um perfil Google bem avaliado gera consideravelmente mais pedidos de orçamento. Os particulares contactam primeiro os profissionais que apresentam uma classificação elevada e feedback detalhado sobre os seus trabalhos."
                         }
                     }
-                }
+                ]
             },
             {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                    "@type": "Product",
-                    "name": "50 Avaliações Positivas + 10 oferta",
-                    "description": "Pack de 50 avaliações Google positivas com contas portuguesas, textos personalizados, garantia vitalícia e apoio ao cliente 24/7.",
-                    "image": "https://comprar-avaliacao.com/comprar-avaliacao-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "169",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
+                "@type": "ItemList",
+                "name": "As Nossas Ofertas Avaliações Positivas",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Avaliações Positivas + 5 oferta",
+                            "description": "Pack de 25 avaliações Google positivas com contas portuguesas, textos personalizados, garantia vitalícia e apoio ao cliente 24/7.",
+                            "image": "https://comprar-avaliacao.com/comprar-avaliacao-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "99",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 12,
+                                            "maxValue": 30,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "PT"
+                                    }
                                 },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 25,
-                                    "maxValue": 60,
-                                    "unitCode": "DAY"
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "PT",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
                                 }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "PT"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "PT",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Avaliações Positivas + 10 oferta",
+                            "description": "Pack de 50 avaliações Google positivas com contas portuguesas, textos personalizados, garantia vitalícia e apoio ao cliente 24/7.",
+                            "image": "https://comprar-avaliacao.com/comprar-avaliacao-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "169",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 25,
+                                            "maxValue": 60,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "PT"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "PT",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Avaliações Positivas + 20 oferta",
+                            "description": "Pack de 100 avaliações Google positivas com contas portuguesas, textos personalizados, garantia vitalícia e apoio ao cliente 24/7.",
+                            "image": "https://comprar-avaliacao.com/comprar-avaliacao-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "279",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 50,
+                                            "maxValue": 120,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "PT"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "PT",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
                         }
                     }
-                }
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                    "@type": "Product",
-                    "name": "100 Avaliações Positivas + 20 oferta",
-                    "description": "Pack de 100 avaliações Google positivas com contas portuguesas, textos personalizados, garantia vitalícia e apoio ao cliente 24/7.",
-                    "image": "https://comprar-avaliacao.com/comprar-avaliacao-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "239",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 50,
-                                    "maxValue": 120,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "PT"
-                            }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "PT",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                        }
-                    }
-                }
+                ]
             }
         ]
     }
