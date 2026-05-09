@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv acheter-avis-google.png comprar-avaliacoes-google.png)",
+      "Bash(mv avis-google-entreprise.webp avaliacoes-google-empresa.webp)",
+      "Bash(mv avis-google.png avaliacoes-google.png)",
+      "Bash(mv avis-market-logo.png comprar-avaliacao-logo.png)",
+      "Bash(mv fiche-google-my-business.webp ficha-google-meu-negocio.webp)",
+      "Bash(mv acheter-avis-google-positifs.html comprar-avaliacoes-google-positivas.html)",
+      "Bash(mv acheter-avis-google-5-etoiles.html comprar-avaliacoes-google-5-estrelas.html)",
+      "Bash(mv acheter-avis-google-my-business.html comprar-avaliacoes-google-my-business.html)",
+      "Bash(mv acheter-avis-negatif-google.html comprar-avaliacoes-negativas-google.html)",
+      "Bash(mv acheter-vrais-avis-google.html comprar-avaliacoes-google-verdadeiras.html)"
+    ]
+  }
+}
